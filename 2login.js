@@ -19,7 +19,7 @@ function paintGreetings(username) {
     "Hello, ",
     "Have a good day, ",
     "Nice to meet you, ",
-    "Welcom, ",
+    "Welcome, ",
   ];
   greeting.innerText = `${
     sen[Math.floor(Math.random() * sen.length)]
