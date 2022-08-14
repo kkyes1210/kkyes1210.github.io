@@ -1,0 +1,105 @@
+@import url("https://cdn.jsdelivr.net/npm/galmuri@latest/dist/galmuri.css");
+
+@font-face {
+  font-family: "DungGeunMo";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "EarlyFontDiary";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_220508@1.0/EarlyFontDiary.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}
+#top {
+  width: 100%;
+  height: 10%;
+  margin: 0px;
+}
+#bottom {
+  width: 100%;
+  height: 5%;
+  margin: 0px;
+}
+#mid {
+  width: 90%;
+  height: 85%;
+  background-color: whitesmoke;
+  opacity: 0.9;
+  margin: auto;
+}
+
+.weather {
+  height: 100%;
+  width: 20%;
+  font-size: 1.15em;
+  font-family: "Galmuri11";
+  font-style: bold;
+}
+
+#clock {
+  width: 100%;
+  height: 40%;
+  margin: 0px;
+  font-family: "DungGeunMo", sans-serif;
+  font-size: 10em;
+  text-align: center;
+}
+
+#login {
+  width: 100%;
+  height: 10%;
+  margin: 0px;
+  text-align: center;
+}
+
+#todo {
+  width: 100%;
+  height: 50%;
+  margin: 0px;
+}
+
+#todo-form {
+  text-align: center;
+  margin: auto;
+}
+
+#todo-form input {
+  width: 20%;
+  text-align: center;
+}
+#todo-list {
+  text-align: center;
+  font-family: "Galmuri11";
+  list-style: none;
+}
+
+.hidden {
+  display: none;
+}
+
+#greeting {
+  font-family: "EarlyFontDiary", sans-serif;
+  font-style: bold;
+}
+
+.delbtn {
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 1.3em;
+  border: 0px;
+}
+
+#location {
+  padding-left: 5px;
+}
